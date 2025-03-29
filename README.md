@@ -1,6 +1,6 @@
-# garmetGenerationp2
+# garmentGenerationp2
 
-# 👗 Fashion Design Web App – User Stories (3-Week Project)
+# 👗 Fashion Design Web App – User Stories (3-Week Project with Camera + AI Measurement Option)
 
 ---
 
@@ -57,6 +57,15 @@ As a **user**, I want to see a visual guide or tooltip while entering measuremen
 **Acceptance Criteria:**
 - Image/chart for each body part
 - Tooltips appear on hover or click
+
+### 🤖 User Story 3.3 – Auto-Estimate Measurements from Camera (Optional AI)
+As a **user**, I want to take a photo of myself with my camera and let the system estimate my body measurements automatically.
+
+**Acceptance Criteria:**
+- Camera capture opens from browser
+- User inputs height for scaling
+- Image is sent to backend with AI model (MediaPipe/OpenCV)
+- Estimated measurements are returned and filled into the form
 
 ---
 
@@ -116,12 +125,13 @@ As a **user**, I want to download the design, measurements, and pattern so I can
 
 ## 📌 Summary of Epics
 
-| Epic Number | Epic Title                    |
-|-------------|-------------------------------|
-| Epic 1      | Home and Onboarding           |
-| Epic 2      | Sketching Garment Design      |
-| Epic 3      | Inputting Body Measurements   |
-| Epic 4      | Pattern Drafting              |
-| Epic 5      | Virtual Sewing (Preview)      |
-| Epic 6      | Completion and Export         |
+| Epic Number | Epic Title                          |
+|-------------|-------------------------------------|
+| Epic 1      | Home and Onboarding                 |
+| Epic 2      | Sketching Garment Design            |
+| Epic 3      | Inputting Body Measurements         |
+| Epic 4      | Pattern Drafting                    |
+| Epic 5      | Virtual Sewing (Preview)            |
+| Epic 6      | Completion and Export               |
 
+> **Optional AI Feature** is included in Epic 3 as User Story 3.3 for automated measurement from camera using Python (MediaPipe + OpenCV).
